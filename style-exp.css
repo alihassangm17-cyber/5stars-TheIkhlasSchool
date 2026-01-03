@@ -1,0 +1,123 @@
+/* EXPLORE PAGE IMAGES SECTION */
+.explore-images-container {
+    background-color: navy;
+    min-height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    padding: 20px; /* added padding to see the navy background better */
+    border: 2px solid navy;
+}
+
+/* My Gallery Hero Header */
+.gallery-hero {
+    margin-top: 90px;
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 68, 126, 0.7), rgba(0, 68, 126, 0.7)), url('images/background-bar.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 0px 0px 80px 80px; /* rounded bottom corners */
+    color: white;
+    padding-top: 100px; /* manual centering from top */
+}
+
+.hero-content h1 {
+    font-size: 50px; /* using px instead of rem */
+    margin-bottom: 10px;
+    text-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* GALLERY ITEMS AREA */
+.gallery-wrapper {
+    padding: 80px 10% 80px 10%;
+    background-color: white; /* making sure background is clean */
+}
+
+.gallery-item {
+    margin-bottom: 100px; /* manual spacing instead of gap */
+    display: block; /* basic block layout */
+    width: 100%;
+    clear: both; /* fixing floats just in case */
+}
+
+/* My Image box inside gallery */
+.img-box {
+    display: inline-block;
+    width: 55%; /* using percentage for half side */
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+}
+
+.img-box img {
+    width: 100%;
+    display: block;
+    transition: 0.6s;
+}
+
+/* My Text box inside gallery */
+.text-box {
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+    padding-left: 40px; /* manual spacing from image */
+}
+
+.text-box h2 {
+    color: #00447e;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* The red line under titles */
+.text-box h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: orangered;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+/* Alternate Layout Manual Way */
+/* Instead of nth-child:even logic, I am just using simple hover for now */
+
+.gallery-item:hover .img-box img {
+    transform: scale(1.1); /* little zoom on hover */
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+/* MOBILE FIX */
+@media (max-width: 900px) {
+    .img-box, .text-box {
+        width: 100% !important;
+        display: block !important;
+        padding-left: 0px !important;
+        text-align: center;
+    }
+    
+    .text-box h2::after {
+        margin: 10px auto;
+    }
+    
+    .gallery-item {
+        margin-bottom: 50px;
+    }
+}
+
+/* EXTRA STUFF FOR REAL FEEL */
+.gallery-footer-note {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
