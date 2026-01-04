@@ -38,7 +38,6 @@
 .principal-badge {
     position: absolute;
     bottom: 20px;
-    right: 20px;
     background: orangered;
     color: white;
     padding: 10px 20px;
@@ -84,7 +83,7 @@
 .tribute-section {
     padding: 100px 10%;
     text-align: center;
-    background-image:url('images/pic.jpg') cover fixed;
+    background-image:url('images/pic.jpg');
     
     overflow:hidden;
     color: white;
