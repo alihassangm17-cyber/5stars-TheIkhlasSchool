@@ -27,13 +27,13 @@ body {
     background-color: white;
     z-index: 1000;
     box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
-    /* backdrop-filter: blur(10px); removed as it looks too pro */
+    
 }
 
 .logo-container {
     display: flex;
     align-items: center;
-    color: #00447e; /* primary blue */
+    color: #00447e; 
 }
 
 .logo-container img {
@@ -83,13 +83,13 @@ body {
     background-color: white;
     border: 2px solid #00447e;
     text-decoration: none;
-    border-radius: 15px; /* changed shape on hover as requested */
+    border-radius: 15px; 
 }
 
-/* HERO VIDEO SECTION */
+
 .hero-video {
     position: relative;
-    height: 550px; /* fixed height instead of vh */
+    height: 550px; 
     width: 100%;
     overflow: hidden;
     margin-top: 90px;
@@ -126,7 +126,7 @@ body {
 .welcome-section {
     padding: 100px 50px;
     background-color: white;
-    text-align: center; /* centering everything manually */
+    text-align: center; 
 }
 
 .welcome-content {
@@ -232,7 +232,7 @@ body {
     margin: 15px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
     transition: 0.3s;
-    vertical-align: top; /* making sure they align at top */
+    vertical-align: top; 
 }
 
 .feature-card:hover {
@@ -284,6 +284,7 @@ body {
     border-radius: 20px;
     margin: 10px;
     width: 300px;
+    height:350px;
     vertical-align: top;
     text-align: left;
     border: 1px solid rgba(255, 255, 255, 0.1);

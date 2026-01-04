@@ -83,7 +83,8 @@
 .tribute-section {
     padding: 100px 10%;
     text-align: center;
-    background-image:url('images/pic.jpg');
+    background:url('images/pic.jpg') fixed;
+    height:400px;
     
     overflow:hidden;
     color: white;
