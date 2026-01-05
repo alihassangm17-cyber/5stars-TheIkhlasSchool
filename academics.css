@@ -1,18 +1,20 @@
 /* ACADEMIC PAGE CUSTOM STYLES */
 
 .academic-hero {
-    margin-top: 90px;
+    margin-top: 120px;
     height: 350px;
-    background-image: linear-gradient(rgba(0, 68, 126, 0.8), rgba(0, 68, 126, 0.8)), url('images/library.jpg');
+    background-image: linear-gradient(rgba(0, 68, 126, 0.8), rgba(0, 68, 126, 0.8)), url('images/nazra.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
+    justify-content: center;
     color: white;
-    padding-top: 120px;
+    padding-top: 30px;
+    backdrop-filter: blur(8px);
 }
 
 .academic-hero h1 {
-    font-size: 50px;
+    font-size: 80px;
 }
 
 /* DUAL EDUCATION LAYOUT */
