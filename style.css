@@ -1,7 +1,7 @@
-/* GLOBAL SETTINGS */
+
 body {
     font-family: 'Fredoka', sans-serif;
-    background-color: rgb(243, 241, 250); /* your bg-light color */
+    background-color: rgb(243, 241, 250); 
     color: #333333;
     margin: 0px;
     padding: 0px;
@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-/* NAVIGATION BAR SECTION */
+
 .nav-bar {
     position: fixed;
     top: 0px;
@@ -60,6 +60,7 @@ body {
     text-decoration: none;
     color: #333333;
     font-weight: 500;
+    font-size:20px;
     padding: 8px 15px;
     transition: 0.3s;
 }
@@ -67,12 +68,14 @@ body {
 .header-buttons a:hover {
     color: orangered;
     background-color: rgba(255, 69, 0, 0.05);
+    font-size:25px;
+    box-shadow:0px 10px 30px rgba(255, 255, 255, 0.05);
     border-radius: 10px;
 }
 
 .inquire-button {
     background-color: #00447e;
-    color: white !important;
+    color: white;
     padding: 10px 20px;
     border-radius: 50px;
     text-decoration: none;
@@ -80,11 +83,12 @@ body {
     cursor: pointer;
     border: none;
     display: inline-block;
+    transition: 0.6s;
 }
 
 .inquire-button:hover {
     color: #00447e;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     border: 2px solid #00447e;
     text-decoration: none;
     border-radius: 15px; 
@@ -127,7 +131,6 @@ body {
     text-align: center;
 }
 
-/* WELCOME SECTION */
 .welcome-section {
     padding: 100px 50px;
     background-color: white;
@@ -170,7 +173,6 @@ body {
     color: orangered;
 }
 
-/* SUCCESS FORMULA */
 .formula-section {
     padding: 60px;
     background-color: #00447e;
@@ -194,7 +196,7 @@ body {
     color: #00447e;
 }
 
-/* STATS SECTION */
+
 .stats-bar {
     padding: 50px;
     background-color: white;
@@ -213,7 +215,7 @@ body {
     margin-bottom: 0px;
 }
 
-/* WHY CHOOSE US CARDS */
+
 .features-section {
     padding: 80px 50px;
     text-align: center;
@@ -265,7 +267,6 @@ body {
     border-radius: 10px;
 }
 
-/* FOOTER STYLING - BEGINNER STYLE */
 .footer-wrapper {
     position: relative;
     background-color: #002244; 
@@ -297,6 +298,7 @@ body {
 }
 .footer-glass-card:hover{
     transform: translateY(-10px);
+    box-shadow:0px 10px 30px rgba(255, 255, 255, 0.356);
 }
 
 .footer-logo img {

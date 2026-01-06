@@ -1,4 +1,4 @@
-/* --- Principal Section --- */
+
 .principal-section {
     padding: 120px 10% 80px;
     background: white;
@@ -56,7 +56,7 @@
     border-left: 4px solid orangered; 
     padding-left: 20px; }
 
-/* --- Vision & Mission Cards --- */
+
 .vision-mission {
     padding: 80px 10%;
     background: #f3f1fa;
@@ -79,7 +79,7 @@
 .vm-card:hover { transform: translateY(-10px); box-shadow: 0 30px 60px rgba(0,68,126,0.1); }
 .vm-card .icon { font-size: 3rem; margin-bottom: 20px; }
 
-/* --- Teacher Tribute --- */
+
 .tribute-section {
     padding: 100px 10%;
     text-align: center;
@@ -96,7 +96,7 @@
       font-size: 1.2rem;
      }
 
-/* --- Parent Hope Section --- */
+
 .parents-hope {
     padding: 100px 10%;
     background: white;
@@ -113,7 +113,8 @@
 }
 
 .hope-card h2 
-{ font-size: 2.5rem; margin-bottom: 20px; 
+{ font-size: 45px;
+     margin-bottom: 20px; 
 }
 .blue-text {
      color: #82b1ff; 
