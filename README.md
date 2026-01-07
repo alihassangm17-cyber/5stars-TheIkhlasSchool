@@ -5,7 +5,7 @@ Welcome to the source code for The Ikhlas School website. This project is a mult
 Holistic Curriculum: Dedicated sections for Modern Subjects (Science, Math) and Spiritual Learning (Nazra-e-Quran).
 
 Modern UI/UX: A clean, professional aesthetic using the Fredoka  font family.
-Responsive Layout: Fully compatible with mobile, tablet, and desktop screens using manual CSS centering and media queries.
+Responsive Layout: Fully compatible with desktop made with CSS .
 
 Interactive Sections:
 Success Formula: A unique mathematical approach to student attitude.
