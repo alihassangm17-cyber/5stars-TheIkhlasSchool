@@ -4,7 +4,7 @@ This project is a multi-page responsive website designed to showcase
 the school campus, academic programs, and its unique approach to
 holistic education—blending modern sciences with religious values.
 
- Key Features
+ Key Features 
 Holistic Curriculum: Dedicated sections for Modern Subjects (Science, Math) 
 and Spiritual Learning (Nazra-e-Quran).
 
