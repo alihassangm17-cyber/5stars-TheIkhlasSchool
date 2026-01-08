@@ -39,12 +39,14 @@ Google Fonts: Integrated Fredoka for a friendly feel.
 
 Resources: 
 Excel file: 
-(https://docs.google.com/spreadsheets/d/1OMbWak7wRNltfLFMgmrhRiTOBmDu_9_t/edit?usp=sharing&ouid=107679182559516600715&rtpof=true&sd=true)
+(https://docs.google.com/spreadsheets/d/1PMF214pTaAyS4h7dJXXBX4MTyxcYJVGL/edit?usp=drive_link&ouid=107679182559516600715&rtpof=true&sd=true)
 
 Word Document (Project Report): 
 https://docs.google.com/document/d/11Ap6mfsNtdM4RiUt4bFaPuRpH8lJ474a/edit?usp=sharing&ouid=107679182559516600715&rtpof=true&sd=true
+
+
 Presentation: 
-https://docs.google.com/presentation/d/1wH0ekOe3FiXeYTWvarS48A44NHd1FEiD/edit?usp=sharing&ouid=107679182559516600715&rtpof=true&sd=true
+https://docs.google.com/presentation/d/1H7Ume0QbEJYOiYGFZtZ12fCJV9tgTVjn/edit?usp=sharing&ouid=107679182559516600715&rtpof=true&sd=true
 
 Designed with Excellence by: 5stars
 
