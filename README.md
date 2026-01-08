@@ -1,4 +1,4 @@
- The Ikhlas School - Official Website
+The Ikhlas School - Official Website
 Welcome to the source code for The Ikhlas School website. 
 This project is a multi-page responsive website designed to showcase 
 the school campus, academic programs, and its unique approach to
